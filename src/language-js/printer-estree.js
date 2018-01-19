@@ -1786,6 +1786,8 @@ function printPathNoParens(path, options, print, args) {
         (!nameHasComments || n.attributes.length) &&
         !lastAttrHasTrailingComments;
 
+      const separator = n.attributes.length > 1 ? hardline : line;
+
       return group(
         concat([
           "<",
@@ -1793,7 +1795,7 @@ function printPathNoParens(path, options, print, args) {
           concat([
             indent(
               concat(
-                path.map(attr => concat([line, print(attr)]), "attributes")
+                path.map(attr => concat([separator, print(attr)]), "attributes")
               )
             ),
             n.selfClosing ? line : bracketSameLine ? ">" : softline
