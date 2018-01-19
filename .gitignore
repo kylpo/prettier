@@ -1,5 +1,6 @@
 /node_modules
 *.log
+/dist
 /errors
 /test.js
 /test.ts

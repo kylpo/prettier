@@ -1,7 +1,7 @@
 {
-  "name": "prettier",
+  "name": "chronstruct-prettier",
   "version": "1.10.2",
-  "description": "Prettier is an opinionated code formatter",
+  "description": "Prettier fork for Chronstruct",
   "bin": {
     "prettier": "./bin/prettier.js"
   },
