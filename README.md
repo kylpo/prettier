@@ -1,3 +1,7 @@
+Thanks to [this](https://github.com/prettier/prettier/pull/3106/files) diff, I have a Prettier which only allows 1
+prop per line! See [this discussion](https://github.com/prettier/prettier/issues/3101) for more.
+
+
 ![Prettier Banner](https://raw.githubusercontent.com/prettier/prettier-logo/master/images/prettier-banner-light.png)
 
 <h2 align="center">Opinionated Code Formatter</h2>
